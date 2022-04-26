@@ -49,10 +49,20 @@ type Style = {
 };
 
 /**
+ * Props for the report issue add-on.
+ *
  * @public
  */
 export type ReportIssueProps = {
+  /**
+   * Time in milliseconds to verify if a user has finished selecting a snippet of text before showing the create issue button.
+   *
+   * @defaultValue 500
+   */
   debounceTime?: number;
+  /**
+   * A factory function that can use a text selection to create the template for new issues containing a title and description.
+   */
   templateBuilder?: ReportIssueTemplateBuilder;
 };
 

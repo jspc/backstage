@@ -15,14 +15,25 @@
  */
 
 /**
+ * Represents the issue template as an object.
  * @public
  */
 export type ReportIssueTemplate = {
+  /**
+   * Value for title field in the new issue form.
+   */
   title: string;
+  /**
+   * Value for description field in the new issue form.
+   */
   body: string;
 };
 
 /**
+ * Definition for a template builder function.
+ *
+ * @param options - An object containing the text selection.
+ * @returns A new issue template object that contains title and body properties.
  * @public
  */
 export type ReportIssueTemplateBuilder = ({

@@ -1,5 +1,13 @@
 # @backstage/plugin-tech-insights-backend-module-jsonfc
 
+## 0.1.16-next.1
+
+### Patch Changes
+
+- 58e2c46151: Updated usages of `buildTechInsightsContext` in README.
+- Updated dependencies
+  - @backstage/plugin-tech-insights-node@0.3.0-next.1
+
 ## 0.1.16-next.0
 
 ### Patch Changes

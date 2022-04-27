@@ -1,5 +1,11 @@
 # @backstage/plugin-rollbar-backend
 
+## 0.1.29-next.1
+
+### Patch Changes
+
+- ab1435dcc9: Updated README to include clearer installation instructions on how to install and configure.
+
 ## 0.1.29-next.0
 
 ### Patch Changes

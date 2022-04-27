@@ -1,5 +1,12 @@
 # @backstage/plugin-tech-insights-node
 
+## 0.3.0-next.1
+
+### Minor Changes
+
+- 58e2c46151: **BREAKING**: The `FactRetrieverContext` type now contains an additional
+  field: `tokenManager`.
+
 ## 0.2.10-next.0
 
 ### Patch Changes
